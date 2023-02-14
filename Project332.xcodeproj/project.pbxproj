@@ -14,6 +14,7 @@
 		A67E2E0B299B098D00B77A41 /* Project332Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E2E0A299B098D00B77A41 /* Project332Tests.swift */; };
 		A67E2E15299B098D00B77A41 /* Project332UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E2E14299B098D00B77A41 /* Project332UITests.swift */; };
 		A67E2E17299B098D00B77A41 /* Project332UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E2E16299B098D00B77A41 /* Project332UITestsLaunchTests.swift */; };
+		A67E2E24299B0E5A00B77A41 /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A67E2E23299B0E5A00B77A41 /* Readme.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A67E2E10299B098D00B77A41 /* Project332UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project332UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67E2E14299B098D00B77A41 /* Project332UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project332UITests.swift; sourceTree = "<group>"; };
 		A67E2E16299B098D00B77A41 /* Project332UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project332UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A67E2E23299B0E5A00B77A41 /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		A67E2DED299B098A00B77A41 = {
 			isa = PBXGroup;
 			children = (
+				A67E2E23299B0E5A00B77A41 /* Readme.rtf */,
 				A67E2DF8299B098A00B77A41 /* Project332 */,
 				A67E2E09299B098D00B77A41 /* Project332Tests */,
 				A67E2E13299B098D00B77A41 /* Project332UITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A67E2E24299B0E5A00B77A41 /* Readme.rtf in Resources */,
 				A67E2E01299B098C00B77A41 /* Preview Assets.xcassets in Resources */,
 				A67E2DFE299B098C00B77A41 /* Assets.xcassets in Resources */,
 			);
