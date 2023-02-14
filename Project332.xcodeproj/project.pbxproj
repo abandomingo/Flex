@@ -45,7 +45,7 @@
 		A67E2E10299B098D00B77A41 /* Project332UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project332UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67E2E14299B098D00B77A41 /* Project332UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project332UITests.swift; sourceTree = "<group>"; };
 		A67E2E16299B098D00B77A41 /* Project332UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project332UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A67E2E23299B0E5A00B77A41 /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
+		A67E2E23299B0E5A00B77A41 /* Readme.rtf */ = {isa = PBXFileReference; explicitFileType = text; path = Readme.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
