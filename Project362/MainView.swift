@@ -15,19 +15,19 @@ struct MainView: View {
         TabView(selection: $selection) {
             HomeView()
                 .tabItem {
-                    Label("Home", systemImage: "house.fill")
+                    Label("HomePage", systemImage: "house.fill")
                 }
                 .tag(0)
             
             CameraView()
                 .tabItem {
-                    Label("Camera", systemImage: "camera.fill")
+                    Label("CameraPage", systemImage: "camera.fill")
                 }
                 .tag(1)
             
             ProfileView()
                 .tabItem {
-                    Label("Profile", systemImage: "person.fill")
+                    Label("ProfilePage", systemImage: "person.fill")
                 }
                 .tag(2)
         }
