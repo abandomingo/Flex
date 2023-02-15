@@ -35,13 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A67E2DF6299B098A00B77A41 /* Project332.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Project332.app; path = Project362.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67E2DF6299B098A00B77A41 /* Project362.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project362.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67E2DF9299B098A00B77A41 /* Project362App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project362App.swift; sourceTree = "<group>"; };
 		A67E2DFD299B098C00B77A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A67E2E00299B098C00B77A41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A67E2E06299B098D00B77A41 /* Project332Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Project332Tests.xctest; path = Project362.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67E2E06299B098D00B77A41 /* Project362.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project362.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67E2E0A299B098D00B77A41 /* Project332Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project332Tests.swift; sourceTree = "<group>"; };
-		A67E2E10299B098D00B77A41 /* Project332UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Project332UITests.xctest; path = Project362.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67E2E10299B098D00B77A41 /* Project362.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project362.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67E2E14299B098D00B77A41 /* Project332UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project332UITests.swift; sourceTree = "<group>"; };
 		A67E2E16299B098D00B77A41 /* Project332UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project332UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A67E2E23299B0E5A00B77A41 /* Readme.rtf */ = {isa = PBXFileReference; explicitFileType = text; path = Readme.rtf; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		A67E2DF7299B098A00B77A41 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A67E2DF6299B098A00B77A41 /* Project332.app */,
-				A67E2E06299B098D00B77A41 /* Project332Tests.xctest */,
-				A67E2E10299B098D00B77A41 /* Project332UITests.xctest */,
+				A67E2DF6299B098A00B77A41 /* Project362.app */,
+				A67E2E06299B098D00B77A41 /* Project362.xctest */,
+				A67E2E10299B098D00B77A41 /* Project362.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A67E2DF5299B098A00B77A41 /* Project332 */ = {
+		A67E2DF5299B098A00B77A41 /* Project362 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A67E2E1A299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project332" */;
+			buildConfigurationList = A67E2E1A299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project362" */;
 			buildPhases = (
 				A67E2DF2299B098A00B77A41 /* Sources */,
 				A67E2DF3299B098A00B77A41 /* Frameworks */,
@@ -148,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = Project332;
+			name = Project362;
 			productName = Project332;
-			productReference = A67E2DF6299B098A00B77A41 /* Project332.app */;
+			productReference = A67E2DF6299B098A00B77A41 /* Project362.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A67E2E05299B098D00B77A41 /* Project332Tests */ = {
+		A67E2E05299B098D00B77A41 /* Project362Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A67E2E1D299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project332Tests" */;
+			buildConfigurationList = A67E2E1D299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project362Tests" */;
 			buildPhases = (
 				A67E2E02299B098D00B77A41 /* Sources */,
 				A67E2E03299B098D00B77A41 /* Frameworks */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				A67E2E08299B098D00B77A41 /* PBXTargetDependency */,
 			);
-			name = Project332Tests;
+			name = Project362Tests;
 			productName = Project332Tests;
-			productReference = A67E2E06299B098D00B77A41 /* Project332Tests.xctest */;
+			productReference = A67E2E06299B098D00B77A41 /* Project362.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A67E2E0F299B098D00B77A41 /* Project332UITests */ = {
+		A67E2E0F299B098D00B77A41 /* Project362UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A67E2E20299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project332UITests" */;
+			buildConfigurationList = A67E2E20299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project362UITests" */;
 			buildPhases = (
 				A67E2E0C299B098D00B77A41 /* Sources */,
 				A67E2E0D299B098D00B77A41 /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				A67E2E12299B098D00B77A41 /* PBXTargetDependency */,
 			);
-			name = Project332UITests;
+			name = Project362UITests;
 			productName = Project332UITests;
-			productReference = A67E2E10299B098D00B77A41 /* Project332UITests.xctest */;
+			productReference = A67E2E10299B098D00B77A41 /* Project362.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A67E2DF5299B098A00B77A41 /* Project332 */,
-				A67E2E05299B098D00B77A41 /* Project332Tests */,
-				A67E2E0F299B098D00B77A41 /* Project332UITests */,
+				A67E2DF5299B098A00B77A41 /* Project362 */,
+				A67E2E05299B098D00B77A41 /* Project362Tests */,
+				A67E2E0F299B098D00B77A41 /* Project362UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,12 +291,12 @@
 /* Begin PBXTargetDependency section */
 		A67E2E08299B098D00B77A41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A67E2DF5299B098A00B77A41 /* Project332 */;
+			target = A67E2DF5299B098A00B77A41 /* Project362 */;
 			targetProxy = A67E2E07299B098D00B77A41 /* PBXContainerItemProxy */;
 		};
 		A67E2E12299B098D00B77A41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A67E2DF5299B098A00B77A41 /* Project332 */;
+			target = A67E2DF5299B098A00B77A41 /* Project362 */;
 			targetProxy = A67E2E11299B098D00B77A41 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -423,7 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Project332/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -451,7 +451,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Project332/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A67E2E1A299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project332" */ = {
+		A67E2E1A299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project362" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A67E2E1B299B098D00B77A41 /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A67E2E1D299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project332Tests" */ = {
+		A67E2E1D299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project362Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A67E2E1E299B098D00B77A41 /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A67E2E20299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project332UITests" */ = {
+		A67E2E20299B098D00B77A41 /* Build configuration list for PBXNativeTarget "Project362UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A67E2E21299B098D00B77A41 /* Debug */,
