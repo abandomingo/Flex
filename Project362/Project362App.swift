@@ -5,13 +5,14 @@
 //  Created by Aban Domingo on 2/13/23.
 //
 
+import UIKit
 import SwiftUI
 
 @main
-struct Project332App: App {
+struct MyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
