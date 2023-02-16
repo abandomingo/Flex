@@ -27,7 +27,7 @@ struct MainView: View {
             
             ProfileView()
                 .tabItem {
-                    Label("Profile", systemImage: "person.fill")
+                    Label("val", systemImage: "person.fill")
                 }
                 .tag(2)
         }
