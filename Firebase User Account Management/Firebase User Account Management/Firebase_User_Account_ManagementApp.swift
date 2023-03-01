@@ -1,10 +1,3 @@
-//
-//  Firebase_User_Account_ManagementApp.swift
-//  Firebase User Account Management
-//
-//  Created by Tunde on 22/05/2021.
-//
-
 import SwiftUI
 import Firebase
 
