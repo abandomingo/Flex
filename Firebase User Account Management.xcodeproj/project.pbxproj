@@ -24,8 +24,7 @@
 		6493AF232659515E00C755D7 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6493AF222659515E00C755D7 /* LoginViewModel.swift */; };
 		6493AF262659585700C755D7 /* ForgotPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6493AF252659585700C755D7 /* ForgotPasswordService.swift */; };
 		6493AF292659594500C755D7 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6493AF282659594500C755D7 /* ForgotPasswordViewModel.swift */; };
-		A6CFC0C229A6F27B00F0ADBD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6CFC0C129A6F27B00F0ADBD /* GoogleService-Info.plist */; };
-		A6CFC0C429AD82F000F0ADBD /* muscle.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CFC0C329AD82F000F0ADBD /* muscle.png */; };
+		A682F73429AF352200D18B3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A682F73329AF352200D18B3D /* GoogleService-Info.plist */; };
 		A6CFC0C729AD940400F0ADBD /* muscle.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CFC0C629AD940400F0ADBD /* muscle.png */; };
 /* End PBXBuildFile section */
 
@@ -47,9 +46,8 @@
 		6493AF222659515E00C755D7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		6493AF252659585700C755D7 /* ForgotPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordService.swift; sourceTree = "<group>"; };
 		6493AF282659594500C755D7 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
-		A6CFC0C129A6F27B00F0ADBD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A6CFC0C329AD82F000F0ADBD /* muscle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muscle.png; path = ../../../../muscle.png; sourceTree = "<group>"; };
-		A6CFC0C629AD940400F0ADBD /* muscle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muscle.png; path = ../../../muscle.png; sourceTree = "<group>"; };
+		A682F73329AF352200D18B3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6CFC0C629AD940400F0ADBD /* muscle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muscle.png; path = ../../muscle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				64380C742658F50A00D1FA0D /* Assets.xcassets */,
+				A682F73329AF352200D18B3D /* GoogleService-Info.plist */,
 				A6CFC0C629AD940400F0ADBD /* muscle.png */,
-				A6CFC0C129A6F27B00F0ADBD /* GoogleService-Info.plist */,
 				64380C9326590B2200D1FA0D /* Base */,
 				64380C882659041C00D1FA0D /* Feature */,
 				64380C702658F50A00D1FA0D /* Firebase_User_Account_ManagementApp.swift */,
@@ -99,7 +97,6 @@
 		64380C762658F50A00D1FA0D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A6CFC0C329AD82F000F0ADBD /* muscle.png */,
 				64380C772658F50A00D1FA0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -333,9 +330,8 @@
 			files = (
 				64380C782658F50A00D1FA0D /* Preview Assets.xcassets in Resources */,
 				64380C752658F50A00D1FA0D /* Assets.xcassets in Resources */,
-				A6CFC0C429AD82F000F0ADBD /* muscle.png in Resources */,
+				A682F73429AF352200D18B3D /* GoogleService-Info.plist in Resources */,
 				A6CFC0C729AD940400F0ADBD /* muscle.png in Resources */,
-				A6CFC0C229A6F27B00F0ADBD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
