@@ -34,7 +34,7 @@
 		64380C742658F50A00D1FA0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64380C772658F50A00D1FA0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64380C792658F50A00D1FA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64380C802658F53B00D1FA0D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		64380C802658F53B00D1FA0D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = "Firebase User Account Management/Feature/Login/Views/LoginView.swift"; sourceTree = SOURCE_ROOT; };
 		64380C822659004C00D1FA0D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		64380C84265901B900D1FA0D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		64380C862659033500D1FA0D /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		64380C9D265910EF00D1FA0D /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
 		64380CA0265915EF00D1FA0D /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
 		6493AF1C2659285D00C755D7 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
-		6493AF1F26594FB300C755D7 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		6493AF1F26594FB300C755D7 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginService.swift; path = "Firebase User Account Management/Feature/Login/Service/LoginService.swift"; sourceTree = SOURCE_ROOT; };
 		6493AF222659515E00C755D7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		6493AF252659585700C755D7 /* ForgotPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordService.swift; sourceTree = "<group>"; };
 		6493AF282659594500C755D7 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
@@ -487,6 +487,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Firebase User Account Management/Preview Content\"";
 				DEVELOPMENT_TEAM = 82ZU96S8PA;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "Firebase User Account Management/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Flex;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -512,6 +513,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Firebase User Account Management/Preview Content\"";
 				DEVELOPMENT_TEAM = 82ZU96S8PA;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "Firebase User Account Management/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Flex;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
