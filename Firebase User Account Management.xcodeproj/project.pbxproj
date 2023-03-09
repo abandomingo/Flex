@@ -25,6 +25,15 @@
 		6493AF262659585700C755D7 /* ForgotPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6493AF252659585700C755D7 /* ForgotPasswordService.swift */; };
 		6493AF292659594500C755D7 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6493AF282659594500C755D7 /* ForgotPasswordViewModel.swift */; };
 		A682F73429AF352200D18B3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A682F73329AF352200D18B3D /* GoogleService-Info.plist */; };
+<<<<<<< Updated upstream
+=======
+		A682F73829B6BA0C00D18B3D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64380C822659004C00D1FA0D /* HomeView.swift */; };
+		A699D9D029B6CD8F00717E44 /* BioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699D9CF29B6CD8F00717E44 /* BioView.swift */; };
+		A699D9D229B6CDA300717E44 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699D9D129B6CDA300717E44 /* CameraView.swift */; };
+		A699D9D429B6CE4F00717E44 /* NavbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699D9D329B6CE4E00717E44 /* NavbarView.swift */; };
+		A699D9D729B96A3400717E44 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699D9D629B96A3400717E44 /* FeedView.swift */; };
+		A699D9DA29B96C0700717E44 /* PostComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699D9D929B96C0700717E44 /* PostComponent.swift */; };
+>>>>>>> Stashed changes
 		A6CFC0C729AD940400F0ADBD /* muscle.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CFC0C629AD940400F0ADBD /* muscle.png */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +56,14 @@
 		6493AF252659585700C755D7 /* ForgotPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordService.swift; sourceTree = "<group>"; };
 		6493AF282659594500C755D7 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		A682F73329AF352200D18B3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+		A699D9CF29B6CD8F00717E44 /* BioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioView.swift; sourceTree = "<group>"; };
+		A699D9D129B6CDA300717E44 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A699D9D329B6CE4E00717E44 /* NavbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarView.swift; sourceTree = "<group>"; };
+		A699D9D629B96A3400717E44 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		A699D9D929B96C0700717E44 /* PostComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComponent.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		A6CFC0C629AD940400F0ADBD /* muscle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muscle.png; path = ../../muscle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +122,7 @@
 		64380C882659041C00D1FA0D /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				A699D9D529B969D700717E44 /* Feed */,
 				64380C912659049300D1FA0D /* Session */,
 				64380C8C2659043500D1FA0D /* Forgot Password */,
 				64380C8B2659042F00D1FA0D /* Home */,
@@ -264,6 +282,23 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		A699D9D529B969D700717E44 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A699D9D829B96BC700717E44 /* FeedComponents */,
+				A699D9D629B96A3400717E44 /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		A699D9D829B96BC700717E44 /* FeedComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A699D9D929B96C0700717E44 /* PostComponent.swift */,
+			);
+			path = FeedComponents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -350,9 +385,11 @@
 				64380C85265901B900D1FA0D /* RegisterView.swift in Sources */,
 				6493AF292659594500C755D7 /* ForgotPasswordViewModel.swift in Sources */,
 				64380C9E265910EF00D1FA0D /* SessionService.swift in Sources */,
+				A699D9D729B96A3400717E44 /* FeedView.swift in Sources */,
 				64380C9626590BA500D1FA0D /* NavigationCloseViewModifier.swift in Sources */,
 				64380C812658F53B00D1FA0D /* LoginView.swift in Sources */,
 				6493AF2026594FB300C755D7 /* LoginService.swift in Sources */,
+				A699D9DA29B96C0700717E44 /* PostComponent.swift in Sources */,
 				64380C872659033500D1FA0D /* ForgotPasswordView.swift in Sources */,
 				64380C712658F50A00D1FA0D /* Firebase_User_Account_ManagementApp.swift in Sources */,
 			);

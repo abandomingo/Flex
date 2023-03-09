@@ -5,9 +5,9 @@ struct HomeView: View {
     @EnvironmentObject var service: SessionServiceImpl
     
     var body: some View {
-            VStack(alignment: .leading,
-                   spacing: 10) {
+            VStack{
                 
+<<<<<<< Updated upstream
                 Image("muscle")
                     .resizable()
                 
@@ -18,6 +18,11 @@ struct HomeView: View {
                     ButtonView(title: "Logout") {
                         service.logout()
                     }
+=======
+                Button("Log Out") {
+                    service.logout()
+                }
+>>>>>>> Stashed changes
                 
             }
             .padding(.horizontal, 16)
