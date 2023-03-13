@@ -53,6 +53,8 @@
 		A699D9CF29B6CD8F00717E44 /* BioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioView.swift; sourceTree = "<group>"; };
 		A699D9D129B6CDA300717E44 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		A699D9D329B6CE4E00717E44 /* NavbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarView.swift; sourceTree = "<group>"; };
+		A699D9EA29B9788F00717E44 /* PostComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComponent.swift; sourceTree = "<group>"; };
+		A699D9EB29B9789100717E44 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		A6CFC0C629AD940400F0ADBD /* muscle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muscle.png; path = ../../muscle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 		64380C882659041C00D1FA0D /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				A699D9ED29B97A1100717E44 /* Feed */,
 				64380C912659049300D1FA0D /* Session */,
 				64380C8C2659043500D1FA0D /* Forgot Password */,
 				64380C8B2659042F00D1FA0D /* Home */,
@@ -271,6 +274,23 @@
 				6493AF282659594500C755D7 /* ForgotPasswordViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A699D9ED29B97A1100717E44 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A699D9EE29B97A2300717E44 /* Components */,
+				A699D9EB29B9789100717E44 /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		A699D9EE29B97A2300717E44 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A699D9EA29B9788F00717E44 /* PostComponent.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
