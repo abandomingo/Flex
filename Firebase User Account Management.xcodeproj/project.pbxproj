@@ -25,6 +25,8 @@
 		6493AF292659594500C755D7 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6493AF282659594500C755D7 /* ForgotPasswordViewModel.swift */; };
 		A682F73429AF352200D18B3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A682F73329AF352200D18B3D /* GoogleService-Info.plist */; };
 		A682F73829B6BA0C00D18B3D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64380C822659004C00D1FA0D /* HomeView.swift */; };
+		A696989F29BFB87A00EE68DA /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699D9EB29B9789100717E44 /* FeedView.swift */; };
+		A69698A029BFB87F00EE68DA /* PostComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699D9EA29B9788F00717E44 /* PostComponent.swift */; };
 		A699D9D029B6CD8F00717E44 /* BioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699D9CF29B6CD8F00717E44 /* BioView.swift */; };
 		A699D9D229B6CDA300717E44 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699D9D129B6CDA300717E44 /* CameraView.swift */; };
 		A699D9D429B6CE4F00717E44 /* NavbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699D9D329B6CE4E00717E44 /* NavbarView.swift */; };
@@ -382,9 +384,11 @@
 				64380C85265901B900D1FA0D /* RegisterView.swift in Sources */,
 				6493AF292659594500C755D7 /* ForgotPasswordViewModel.swift in Sources */,
 				64380C9E265910EF00D1FA0D /* SessionService.swift in Sources */,
+				A696989F29BFB87A00EE68DA /* FeedView.swift in Sources */,
 				64380C9626590BA500D1FA0D /* NavigationCloseViewModifier.swift in Sources */,
 				64380C812658F53B00D1FA0D /* LoginView.swift in Sources */,
 				6493AF2026594FB300C755D7 /* LoginService.swift in Sources */,
+				A69698A029BFB87F00EE68DA /* PostComponent.swift in Sources */,
 				64380C872659033500D1FA0D /* ForgotPasswordView.swift in Sources */,
 				64380C712658F50A00D1FA0D /* Firebase_User_Account_ManagementApp.swift in Sources */,
 			);

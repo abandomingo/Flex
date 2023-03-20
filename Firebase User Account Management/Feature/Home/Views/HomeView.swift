@@ -41,24 +41,22 @@ struct HomeView: View {
     @EnvironmentObject var service: SessionServiceImpl
     
     var body: some View {
-            VStack(alignment: .leading,
-                   spacing: 10) {
+            VStack() {
                 
                 Button("Log Out") {
                     service.logout()
                 }
+                
 
-                HStack (alignment: .center, spacing: 10){
-                    Text("First Name: \(service.userDetails?.firstName ?? "N/A")")
-                    
-                    Text("Last Name: \(service.userDetails?.lastName ?? "N/A")")
-                    Text("Occupation: \(service.userDetails?.occupation ?? "N/A")")
-                }
+//                HStack (alignment: .center, spacing: 10){
+//                    Text("First Name: \(service.userDetails?.firstName ?? "N/A")")
+//
+//                    Text("Last Name: \(service.userDetails?.lastName ?? "N/A")")
+//                    Text("Occupation: \(service.userDetails?.occupation ?? "N/A")")
+//                }
                 
-                
+                FeedView()
                 
             }
-            .padding(.horizontal, 16)
-            .navigationTitle("Your Flex Page")
     }
 }

@@ -14,22 +14,25 @@ struct NavbarView: View{
     
     var body: some View {
         TabView {
+            
             HomeView()
                 .tabItem {
                     Image(systemName: "house")
                     Text("Home")
                 }
+            
             CameraView()
             Text("Camera")
                 .tabItem {
-                    Image(systemName: "Camera")
+                    Image(systemName: "camera")
                     Text("Camera")
                 }
             BioView()
             Text("Bio")
                 .tabItem {
-                    Image(systemName: "house")
+                    Image(systemName: "person")
                     Text("Me")
+
                 }
         }
     }
