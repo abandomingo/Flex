@@ -1,35 +1,62 @@
 import SwiftUI
 
+
+struct NavView: View{
+
+    @EnvironmentObject var service: SessionServiceImpl
+
+    var body: some View {
+        TabView {
+            HomeView()
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Home")
+                }
+            Text("Camera")
+                .tabItem {
+                    Image(systemName: "Camera")
+                    Text("Camera")
+                }
+            Text("Me")
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Me")
+                }
+        }
+    }
+}
+
+
+
+struct HomeView_Previews: PreviewProvider {
+    static var previews: some View {
+            NavView()
+                .environmentObject(SessionServiceImpl())
+    }
+}
+
+
 struct HomeView: View {
     
     @EnvironmentObject var service: SessionServiceImpl
     
     var body: some View {
-            VStack(alignment: .leading,
-                   spacing: 10) {
+            VStack() {
                 
-                Image("muscle")
-                    .resizable()
+                Button("Log Out") {
+                    service.logout()
+                }
                 
-                Text("First Name: \(service.userDetails?.firstName ?? "N/A")")
-                Text("Last Name: \(service.userDetails?.lastName ?? "N/A")")
-                Text("Occupation: \(service.userDetails?.occupation ?? "N/A")")
-                    
-                    ButtonView(title: "Logout") {
-                        service.logout()
-                    }
+
+//                HStack (alignment: .center, spacing: 10){
+//                    Text("First Name: \(service.userDetails?.firstName ?? "N/A")")
+//
+//                    Text("Last Name: \(service.userDetails?.lastName ?? "N/A")")
+//                    Text("Occupation: \(service.userDetails?.occupation ?? "N/A")")
+//                }
+                
+                FeedView()
                 
             }
-            .padding(.horizontal, 16)
-            .navigationTitle("Your Flex Page")
-    }
-}
-
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            HomeView()
-                .environmentObject(SessionServiceImpl())
-        }
     }
 }
