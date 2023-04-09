@@ -12,15 +12,15 @@ struct HomeView: View{
                     Image(systemName: "house")
                     Text("Home")
                 }
-            Text("Camera")
+            CameraView()
                 .tabItem {
                     Image(systemName: "camera")
                     Text("Camera")
                 }
-            Text("Me")
+            BioView()
                 .tabItem {
                     Image(systemName: "person")
-                    Text("Me")
+                    Text("Bio")
                 }
         }
     }
