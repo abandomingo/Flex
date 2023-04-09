@@ -3,6 +3,7 @@ import SwiftUI
 struct HomeView: View {
     
     @EnvironmentObject var service: SessionServiceImpl
+<<<<<<< Updated upstream
     
     var body: some View {
             VStack(alignment: .leading,
@@ -22,6 +23,37 @@ struct HomeView: View {
             }
             .padding(.horizontal, 16)
             .navigationTitle("Your Flex Page")
+=======
+    @State private var selectedIndex = 0
+
+    var body: some View {
+        TabView(selection: $selectedIndex){
+            
+            FeedView()
+                .onTapGesture{
+                    self.selectedIndex = 0
+                }
+                .tabItem {
+                    Image(systemName: "house")
+                }.tag(0)
+            
+            ContentView()
+                .onTapGesture{
+                    self.selectedIndex = 1
+                }
+                .tabItem {
+                    Image(systemName: "camera")
+                }.tag(1)
+            
+            BioView()
+                .onTapGesture{
+                    self.selectedIndex = 2
+                }
+                .tabItem {
+                    Image(systemName: "person")
+                }.tag(2)
+        }
+>>>>>>> Stashed changes
     }
 }
 
