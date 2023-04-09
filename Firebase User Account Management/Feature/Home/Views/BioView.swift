@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct BioView: View {
+    
+    @EnvironmentObject var service: SessionServiceImpl
+    
     var body: some View {
-        Text("Bio View")
+        
+        Button("Log Out") {
+            service.logout()
+        }
+        
+        
     }
 }
 
