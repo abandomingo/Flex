@@ -3,13 +3,6 @@ import FirebaseAuth
 import FirebaseDatabase
 import Combine
 
-// Create a protocol with the following
-/**
- * Init
- * state
- * Publisher to return the user so in the view model you can map and create a struct
- */
-
 enum SessionState {
     case loggedIn
     case loggedOut
