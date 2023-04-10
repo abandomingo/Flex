@@ -8,13 +8,30 @@
 import SwiftUI
 
 struct FeedView: View {
+    @State private var showNewPostView = false
     var body: some View {
-        ScrollView{
-            LazyVStack{
-                ForEach(0 ... 20, id: \.self) { _ in
-                   PostComponent()
-                    
+        ZStack(alignment: .bottomTrailing) {
+            ScrollView{
+                LazyVStack{
+                    ForEach(0 ... 20, id: \.self) { _ in
+                        PostComponent()
+                        
+                    }
                 }
+            }
+            
+            Button {
+                showNewPostView.toggle()
+            } label: {
+                Image(systemName:"plus.circle.fill")
+                    .resizable()
+                    .renderingMode(.template)
+                    .frame(width:50, height: 50)
+                    .padding()
+                    .foregroundColor(.gray)
+            }
+            .fullScreenCover(isPresented: $showNewPostView) {
+                NewPostView()
             }
         }
     }

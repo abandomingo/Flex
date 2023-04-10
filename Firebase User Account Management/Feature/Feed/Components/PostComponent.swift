@@ -13,7 +13,7 @@ struct PostComponent: View {
             HStack(alignment: .top, spacing: 12){
                 Circle()
                     .frame(width: 56, height: 56)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.gray)
                 VStack(alignment: .leading, spacing: 4){
                     HStack{
                         Text("Aban Domingo")
@@ -36,11 +36,13 @@ struct PostComponent: View {
                     //add like
                 } label:{
                     Image(systemName: "heart")
+                        .foregroundColor(.gray)
                 }
                 Button{
                     //add comment
                 } label:{
                     Image(systemName: "bubble.left")
+                        .foregroundColor(.gray)
                 }
                 .padding(5)
                 Text("")
