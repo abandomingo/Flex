@@ -8,10 +8,11 @@
 import Foundation
 import SwiftUI
 
+
 struct BioView: View
 {
     @EnvironmentObject var service: SessionServiceImpl
-    
+    @State private var showProfilePhotoSelectorView = false
     var body: some View
     {
         NavigationView
@@ -23,7 +24,7 @@ struct BioView: View
                 descriptionView
                 
             }
-            .navigationTitle("testing") // Change to username
+            .navigationTitle(Text("\(service.userDetails?.firstName ?? "N/A")")) // Change to username
             .navigationBarTitleDisplayMode(.inline)
             .toolbar
             {
@@ -31,6 +32,7 @@ struct BioView: View
                 {
                     Button(action:{service.logout()}) {
                         Image(systemName:"rectangle.portrait.and.arrow.forward")
+                            .foregroundColor(Color(.systemGray))
                     }
                 }
 //                ToolbarItem(placement: .navigationBarLeading)
@@ -42,15 +44,24 @@ struct BioView: View
     }
     private var headerView: some View
     {
+        
         HStack
         {
-            Image("image5")
-                .resizable()
-                .scaledToFill()
-                .frame(width: 100, height: 100)
-                .clipShape(Circle())
-                .overlay(Circle().strokeBorder(Color.orange, lineWidth: 2))
-            
+           
+            Button {
+                showProfilePhotoSelectorView.toggle()
+            } label: {
+                Image("image5")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 100, height: 100)
+                    .clipShape(Circle())
+                    .overlay(Circle().strokeBorder(Color.orange, lineWidth: 2))
+            }
+            .fullScreenCover(isPresented: $showProfilePhotoSelectorView) {
+                ProfilePhotoSelectorView()
+            }
+
             VStack(spacing:12)
             {
                 HStack
@@ -155,5 +166,6 @@ struct BioView_Previews: PreviewProvider
     static var previews: some View
     {
         BioView()
+            .environmentObject(SessionServiceImpl())
     }
 }
