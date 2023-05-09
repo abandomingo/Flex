@@ -16,4 +16,19 @@ These tutorials really helped us to get started:
 https://www.youtube.com/watch?v=3pIXMwvJLZs&ab_channel=AppStuff
 https://www.youtube.com/watch?v=5gIuYHn9nOc
 
-# Demo
+# Demo Examples
+
+# Login
+![Login](FlexLogin.png)
+
+# Register
+![Register](FlexRegister.png)
+
+# Feed
+![Feed Example](FlexFeed.png)
+
+# Forgot
+![Frogot Password Example](FlexForgot.png)
+
+
+
