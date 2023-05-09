@@ -19,16 +19,18 @@ https://www.youtube.com/watch?v=5gIuYHn9nOc
 # Demo Examples
 
 # Login
-![Login](FlexLogin.png)
+<img src="FlexLogin.png" alt="Login Example" width="30%" height="30%">
 
 # Register
-![Register](FlexRegister.png)
-
-# Feed
-![Feed Example](FlexFeed.png)
+<img src="FlexRegister.png" alt="Register Example" width="30%" height="30%">
 
 # Forgot
-![Frogot Password Example](FlexForgot.png)
+<img src="FlexForgot.png" alt="Forgot Example" width="30%" height="30%">
+
+# Feed
+<img src="FlexFeed.png" alt="Feed Example" width="30%" height="30%">
+
+
 
 
 
